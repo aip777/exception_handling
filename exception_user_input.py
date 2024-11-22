@@ -2,7 +2,7 @@
 class NotAllowPercentage(Exception):
     pass
 
-def calculate_percentage():
+def calculate_percentage()->float:
     try:
         num = int(input("Enter your number: "))
         percentage = int(input("Enter your percentage(Do not allow 1-5%): "))
